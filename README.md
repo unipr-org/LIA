@@ -1,5 +1,5 @@
-# AIA - Laboratorio di intelligenza artificiale
-AIA - Laboratorio di intelligenza artificiale presso l'Università degli Studi di Parma (6 CFU).
+# LIA - Laboratorio di intelligenza artificiale
+LIA - Laboratorio di intelligenza artificiale presso l'Università degli Studi di Parma (6 CFU).
 
 ```bash
 Guida directory:
