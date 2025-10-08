@@ -5,9 +5,17 @@ LIA - Laboratorio di intelligenza artificiale presso l'Università degli Studi d
 Guida directory:
 .
 ├── assets
+│   └── # immagini readme
 ├── notebooks
+│   ├── lessons
+│   │   └── # notebook visti a lezione
+│   └── personal
+│       └── # notebook personali
 ├── notes
+├── README.md
+├── requirements.txt
 └── slides
+    └── # slide
 ```
 
 ---
