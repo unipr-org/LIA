@@ -1,38 +1,35 @@
-# LIA - Laboratorio di intelligenza artificiale
-LIA - Laboratorio di intelligenza artificiale presso l'Università degli Studi di Parma (6 CFU).
+# LIA - Laboratorio di Intelligenza Artificiale
+LIA - Laboratorio di Intelligenza Artificiale presso l'Università degli Studi di Parma (6 CFU).
 
 ```bash
-Guida directory:
 .
 ├── assets
-│   └── # immagini readme
+│   └── # images
 ├── notebooks
 │   ├── lessons
-│   │   └── # notebook visti a lezione
+│   │   └── # lessons' notebooks
 │   └── personal
-│       └── # notebook personali
-├── notes
-├── README.md
-├── requirements.txt
+│       └── # personal notebooks
 └── slides
-    └── # slide
 ```
 
 ---
 
-## Appunti
+# Development Environment
+Create a virtual environment:
+```bash
+conda create --name machine-learning python=3.11
+conda activate machine-learning
+```
 
-Benvenuti nella repository degli appunti presi a lezione del corso "Laboratorio di l'intelligenza artificiale".
-In questa cartella troverete una raccolta di appunti e materiali utili per lo studio di questa disciplina.
+Install requirements:
+```bash
+pip install -r requirements.txt
+pre-commit install
+pre-commit install --hook-type commit-msg
+```
 
-## Setup environment
-
-Per effettuare il setup del environment su Visual Studio Code:
-1. Scaricare l'estensione `https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter`.
-2. Aprire la palette dei comandi (solitamente Ctrl + Shift + P su Windows, Cms + Shift + P su MacOS).
-3. Digitare "env" e selezionare la "Python: Crea ambiente". ![img1](assets/img1.png)
-4. Selezionare lo strumento che si preferisce per creare l'ambiente virtuale.
-5. Aprire un terminale, attivare l'ambiente creato nei punti precedenti (se non già attivo) e installare i pacchetti richiesti nel `requirements.txt`
+Then, you can change the _Jupyter kernel_ setting the **Conda** environment as the new one.
 
 ## Contributors
 
